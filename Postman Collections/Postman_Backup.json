@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "218e4972-5765-46d7-964b-4a26335cd6fd",
+		"name": "ServiceNow Restful API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Incident table",
+			"id": "143ee0c5-0606-4e32-b4de-e703bddaf2ac",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://{{sn_instance}}.service-now.com/api/now/table/incident"
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": {
+			"username": "{{sn_user_id}}",
+			"password": "{{password}}"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "f5ccb276-45e9-4e5a-a247-88c1e4369c7f",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "e2b5f08d-6d84-4ce0-96db-c99c97c6c608",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "password",
+			"value": "D#9@{,,n^Vez674gyyA}dad5}@]j^B)WPn@))c.FZ,Cb)QT>%BwY22e%71LEEk0hE%M*=Lt?FBx1!M*MLn:*Hw_ISgd>S*5EB]vS",
+			"type": "string"
+		},
+		{
+			"key": "sn_instance",
+			"value": "dev218694",
+			"type": "string"
+		},
+		{
+			"key": "sn_user_id",
+			"value": "bencaoTestLab",
+			"type": "string"
+		},
+		{
+			"value": "",
+			"type": "string",
+			"disabled": true
+		}
+	]
+}
