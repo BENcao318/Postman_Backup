@@ -159,7 +159,7 @@
 			"response": []
 		},
 		{
-			"name": "Mobile Card Builder - Get Item View Data Copy 3",
+			"name": "Advanced Chat Settings",
 			"id": "863738ed-191b-41e1-8bd4-81207af519c5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -167,7 +167,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://dev218694.service-now.com/api/now/mobile_card_builder/getItemViewData"
+				"url": "https://{{sn_instance}}.service-now.com/api/now/advance_chat_settings/get_feature_status"
 			},
 			"response": []
 		},
