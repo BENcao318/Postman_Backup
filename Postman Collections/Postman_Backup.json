@@ -95,14 +95,19 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"rpSysId\":\"3f1dd0320a0a0b99000a53f7604a2ef9\",\"searchContextConfigId\":\"2056f9de67621010b3d782f45685efd0\",\"searchTerm\":\"test\"}"
+					"raw": "{\"rpSysId\":\"3f1dd0320a0a0b99000a53f7604a2ef9\",\"searchContextConfigId\":\"2056f9de67621010b3d782f45685efd0\",\"searchTerm\":\"test\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
 				},
 				"url": "https://{{sn_instance}}.service-now.com/api/now/aisa/search"
 			},
 			"response": []
 		},
 		{
-			"name": "Demo Instance Copy",
+			"name": "Mobile Card Builder - Current Scope",
 			"id": "70bb7101-093d-4fc7-8365-ec3016a5ac36",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -115,7 +120,7 @@
 			"response": []
 		},
 		{
-			"name": "Demo Instance Copy 2",
+			"name": "Mobile Card Builder - Get Item View Data",
 			"id": "7f3f3eca-fb15-45f7-84b7-682db17bfea3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -123,7 +128,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://{{sn_instance}}.service-now.com/api/now/table/incident"
+				"url": "https://dev218694.service-now.com/api/now/mobile_card_builder/getItemViewData"
 			},
 			"response": []
 		},
