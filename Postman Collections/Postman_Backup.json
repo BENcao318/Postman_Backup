@@ -14,7 +14,27 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://{{sn_instance}}.service-now.com/api/now/table/incident"
+				"url": {
+					"raw": "https://{{sn_instance}}.service-now.com/api/now/table/incident?sysparm_limit=1",
+					"protocol": "https",
+					"host": [
+						"{{sn_instance}}",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"incident"
+					],
+					"query": [
+						{
+							"key": "sysparm_limit",
+							"value": "1"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -60,6 +80,19 @@
 		{
 			"name": "Demo Instance Copy 2",
 			"id": "7f3f3eca-fb15-45f7-84b7-682db17bfea3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://{{sn_instance}}.service-now.com/api/now/table/incident"
+			},
+			"response": []
+		},
+		{
+			"name": "Scripted Rest API Test",
+			"id": "aee66958-70fe-42cc-b36e-9408a72717b5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
