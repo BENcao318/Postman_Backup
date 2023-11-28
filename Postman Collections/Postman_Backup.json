@@ -43,6 +43,19 @@
 				"url": "https://{{sn_instance}}.service-now.com/api/now/table/incident"
 			},
 			"response": []
+		},
+		{
+			"name": "Demo Instance Copy",
+			"id": "70bb7101-093d-4fc7-8365-ec3016a5ac36",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://{{sn_instance}}.service-now.com/api/now/table/incident"
+			},
+			"response": []
 		}
 	],
 	"auth": {
