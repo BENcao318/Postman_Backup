@@ -39,6 +39,39 @@
 			"response": []
 		},
 		{
+			"name": "Get Company table",
+			"id": "4d534c05-cb20-4292-bced-d300d3515466",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{sn_instance}}.service-now.com/api/now/table/core_company?sysparm_limit=1",
+					"protocol": "https",
+					"host": [
+						"{{sn_instance}}",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"core_company"
+					],
+					"query": [
+						{
+							"key": "sysparm_limit",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Get CSM Account Records",
 			"id": "8d3621ce-224c-461d-b85e-6e795f5b09e7",
 			"protocolProfileBehavior": {
