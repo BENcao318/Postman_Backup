@@ -85,15 +85,19 @@
 			"response": []
 		},
 		{
-			"name": "Get",
+			"name": "AI Search Internal",
 			"id": "56c99329-940f-4810-99fd-cb7af800b436",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [],
-				"url": "https://{{sn_instance}}.service-now.com/api/now/table/incident"
+				"body": {
+					"mode": "raw",
+					"raw": "{\"rpSysId\":\"3f1dd0320a0a0b99000a53f7604a2ef9\",\"searchContextConfigId\":\"2056f9de67621010b3d782f45685efd0\",\"searchTerm\":\"test\"}"
+				},
+				"url": "https://{{sn_instance}}.service-now.com/api/now/aisa/search"
 			},
 			"response": []
 		},
