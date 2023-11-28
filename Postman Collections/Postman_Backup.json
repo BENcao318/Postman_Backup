@@ -133,6 +133,45 @@
 			"response": []
 		},
 		{
+			"name": "Mobile Card Builder - Get Item View Data Copy",
+			"id": "c4369d89-4ff6-4920-beb3-66d7df5995d2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://dev218694.service-now.com/api/now/mobile_card_builder/getItemViewData"
+			},
+			"response": []
+		},
+		{
+			"name": "Mobile Card Builder - Get Item View Data Copy 2",
+			"id": "e7fdcb86-801b-46fe-8183-26eebf00ae54",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://dev218694.service-now.com/api/now/mobile_card_builder/getItemViewData"
+			},
+			"response": []
+		},
+		{
+			"name": "Mobile Card Builder - Get Item View Data Copy 3",
+			"id": "863738ed-191b-41e1-8bd4-81207af519c5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://dev218694.service-now.com/api/now/mobile_card_builder/getItemViewData"
+			},
+			"response": []
+		},
+		{
 			"name": "Scripted Rest API Test",
 			"id": "aee66958-70fe-42cc-b36e-9408a72717b5",
 			"protocolProfileBehavior": {
