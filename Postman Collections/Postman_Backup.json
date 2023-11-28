@@ -17,6 +17,19 @@
 				"url": "https://{{sn_instance}}.service-now.com/api/now/table/incident"
 			},
 			"response": []
+		},
+		{
+			"name": "Get CSM Account Records",
+			"id": "8d3621ce-224c-461d-b85e-6e795f5b09e7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://{{sn_instance}}.service-now.com/api/now/table/incident"
+			},
+			"response": []
 		}
 	],
 	"auth": {
