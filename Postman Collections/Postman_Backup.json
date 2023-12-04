@@ -115,7 +115,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://{{sn_instance}}.service-now.com/api/now/table/incident"
+				"url": "https://{{sn_instance}}.service-now.com/api/now/mobile_card_builder/getCurrentScope"
 			},
 			"response": []
 		},
@@ -180,7 +180,37 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://{{sn_instance}}.service-now.com/api/now/table/incident"
+				"url": "https://{{sn_instance}}.service-now.com/api/sn_me/scripted_rest_api_test/fetch_incident"
+			},
+			"response": []
+		},
+		{
+			"name": "https://{{sn_instance}}.service-now.com/report_viewer.do?jvar_report_id=a1849841c611227b01646de563508c09",
+			"id": "5ad9c038-a14c-4e2e-8cf6-6dcfaad66e47",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{sn_instance}}.service-now.com/report_viewer.do?jvar_report_id=a1849841c611227b01646de563508c09",
+					"protocol": "https",
+					"host": [
+						"{{sn_instance}}",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"report_viewer.do"
+					],
+					"query": [
+						{
+							"key": "jvar_report_id",
+							"value": "a1849841c611227b01646de563508c09"
+						}
+					]
+				}
 			},
 			"response": []
 		}
