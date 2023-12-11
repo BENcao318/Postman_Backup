@@ -213,6 +213,34 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "https://localhost:8089/services/auth/login",
+			"id": "db53de79-51d0-45a1-98af-1d91b1eb3989",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"type": "text",
+							"key": "username",
+							"value": "{{user}}"
+						},
+						{
+							"type": "text",
+							"key": "password",
+							"value": "{{pass}}"
+						}
+					]
+				},
+				"url": "https://localhost:8089/services/auth/login"
+			},
+			"response": []
 		}
 	],
 	"auth": {
