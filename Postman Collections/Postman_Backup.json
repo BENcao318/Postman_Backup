@@ -254,7 +254,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "f5ccb276-45e9-4e5a-a247-88c1e4369c7f",
+				"id": "24ef1b9a-0792-4a65-837e-8b09a727f0da",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -264,7 +264,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "e2b5f08d-6d84-4ce0-96db-c99c97c6c608",
+				"id": "c740dc4b-31ae-47a3-9d11-55e2d9eb49c9",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -275,17 +275,17 @@
 	"variable": [
 		{
 			"key": "password",
-			"value": "D#9@{,,n^Vez674gyyA}dad5}@]j^B)WPn@))c.FZ,Cb)QT>%BwY22e%71LEEk0hE%M*=Lt?FBx1!M*MLn:*Hw_ISgd>S*5EB]vS",
+			"value": "pZ8V43bp>vq8vl7,y-&lghLY8>yJfrrrbaVO:=fzU*>[lN16mM}Tc{gJ[6IW3W6N^(5J<VSxLcd9#rAh-Xul3+EYGpl#G(lx@={2",
 			"type": "string"
 		},
 		{
 			"key": "sn_instance",
-			"value": "dev218694",
+			"value": "dev226415",
 			"type": "string"
 		},
 		{
 			"key": "sn_user_id",
-			"value": "bencaoTestLab",
+			"value": "BenTestLab",
 			"type": "string"
 		},
 		{
