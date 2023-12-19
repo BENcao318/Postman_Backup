@@ -2,6 +2,7 @@
 	"info": {
 		"_postman_id": "218e4972-5765-46d7-964b-4a26335cd6fd",
 		"name": "ServiceNow Restful API",
+		"description": "ServiceNow API utilization requires dev instance creation. Use dev account to create an Instance then go to servicenow developer console to create an user.\n\nClick All and search sys_user.list to go to the user list. Create a user and assign Roles:\n\n<img src=\"https://content.pstmn.io/94ae3aa2-2a4e-451b-8c92-54b4eda2301b/aW1hZ2UucG5n\" alt=\"\" height=\"414\" width=\"440\">\n\nA password is also needed by clicking Set Password and use system generated password",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
