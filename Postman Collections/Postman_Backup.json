@@ -107,7 +107,7 @@
 			"response": []
 		},
 		{
-			"name": "Mobile Card Builder - Current Scope",
+			"name": "Get All Data Classes (Data Classification)",
 			"id": "70bb7101-093d-4fc7-8365-ec3016a5ac36",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -120,7 +120,7 @@
 			"response": []
 		},
 		{
-			"name": "Mobile Card Builder - Get Item View Data",
+			"name": "Retrieve Metadata for attachements",
 			"id": "7f3f3eca-fb15-45f7-84b7-682db17bfea3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
